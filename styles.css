@@ -289,7 +289,7 @@ header{
 .project-grid .project{
   width: 49.5%;
   height: 45%;
-  background-color: gray;
+  background-color: transparent ;
 }
 
 /* Media Queries for Project */
@@ -642,4 +642,10 @@ body{
 
 .projects .img-div{
   z-index: 2;
+}
+
+
+
+video{
+  object-fit: cover;
 }
